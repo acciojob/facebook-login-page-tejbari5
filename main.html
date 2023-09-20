@@ -7,8 +7,48 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <div id="description">
+        <div class="left">
+            <img src="https://logohistory.net/wp-content/uploads/2022/10/Facebook-Logo.png" alt="img">
+        </div>
+        
+        <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+
+    <div id="details">
+      <form action="#" method="post">
+        <label for="email"></label>
+        <input
+          type="text"
+          id="email"
+          placeholder="Email address or phone number"
+          name="user_id"
+          required
+        />
+
+        <label for="password"></label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          name="password"
+          required
+        />
+      </form>
+
+      <button id="btn1" type="submit">Login</button>
+
+      <div id="forgot">
+        <a href="/recover/initiate">Forgetten account?</a>
+      </div>
+
+	<a href="https://www.facebook.com/r.php">
+		<button class="signup"  type="button">Create new account</button>
+	</a>
+		
+      
+    </div>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
